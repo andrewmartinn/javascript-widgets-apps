@@ -1,0 +1,61 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #1f2937;
+  color: #fff;
+  font-size: 14px;
+  height: 100vh;
+}
+
+.container{
+  max-width: 750px;
+  margin: auto;
+  padding: 0 1rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch{
+  background: #111827;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+.time{
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.stopwatch-actions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button{
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: #17cea5;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity: 0.9;
+}
