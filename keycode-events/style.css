@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  font-size: 14px;
+}
+
+.container{
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 0 1rem;
+}
+
+h1, .welcome{
+  text-align: center;
+}
+
+.keycode{
+  margin: 150px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.keycode-item{
+  text-align: center;
+}
+
+.keycode-text{
+  font-size: 1rem;
+}
+
+.keycode-box{
+  margin-top: 0.8rem;
+  height: 80px;
+  width: 100px;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+.keycode-value{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+
+
