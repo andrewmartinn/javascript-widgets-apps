@@ -1,2 +1,2 @@
-#stopwatch
+# stopwatch
 Javascript stopwatch app
