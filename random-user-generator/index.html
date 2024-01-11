@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Random User Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Random User Generator</h1>
+    </header>
+    <section id="user">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="" id="userImage">
+        </div>
+        <div class="card-content">
+          <h3 id="userName">Jane Doe</h3>
+          <div class="user-info">
+            <div class="item">
+              <i class="fa-solid fa-envelope"></i>
+              <p id="userEmail">jane@email.com</p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-square-phone"></i>
+              <p id="userPhone">100-1000-100</p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-location-dot"></i>
+              <p id="userLocation">New York, NY</p>
+            </div>
+          </div>
+          <button id="getUserBtn">Generate User</button>
+        </div>
+
+      </div>
+    </section>
+    <footer>
+      <p>Made Using <a href="">Random User API</a></p>
+    </footer>
+
+    <script src="./main.js"></script>
+  </div>
+</body>
+
+</html>
